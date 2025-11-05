@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -12,7 +10,7 @@ export default function Home() {
             <span className="text-2xl font-bold text-gray-900">Bubatz Center</span>
           </div>
           <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
-            Loslegen
+            Jetzt Starten
           </a>
         </div>
       </nav>
@@ -24,15 +22,15 @@ export default function Home() {
               Einfach, Schnell & Zugänglich
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Erleben Sie einen neuen Standard für digitale Wellness. Qualitätsprodukte, fachkundige Beratung
-              und nahtlose Lieferung — alles auf einer modernen Plattform für 
+              Erleben Sie einen neuen Standard in digitaler Wellness. Qualitätsprodukte, fachkundige Beratung
+              und nahtlose Lieferung — alles auf einer modernen Plattform für Ihre Bequemlichkeit.
             </p>
             <div className="flex flex-wrap gap-4 justify-center mb-10">
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Premium‑Qualität</span>
+                <span className="font-medium">Premium Qualität</span>
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
@@ -48,7 +46,7 @@ export default function Home() {
               </div>
             </div>
             <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl inline-block">
-              Jetzt starten
+              Starten Sie Ihre Reise
             </a>
           </div>
 
@@ -61,8 +59,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Einfache Auswahl</h3>
               <p className="text-gray-600 leading-relaxed">
-                Stöbern Sie in unserer kuratierten Auswahl an Premium‑Produkten. Einfache Oberfläche,
-                klare Informationen und unkomplizierte Bestellvorgänge.
+                Durchstöbern Sie unsere kuratierte Auswahl an Premium-Produkten. Einfache Benutzeroberfläche,
+                klare Informationen und unkomplizierte Bestellung.
               </p>
             </div>
 
@@ -74,9 +72,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Schnelle Bearbeitung</h3>
               <p className="text-gray-600 leading-relaxed">
-                Bestellungen werden innerhalb von 2 Werktagen bearbeitet. Kein Aufwand, keine Wartezeit.
+                Bestellungen werden innerhalb von 2 Werktagen bearbeitet. Kein Ärger, kein Warten.
                 Verfolgen Sie Ihre Bestellung von Anfang bis Ende.
-              </p>
               </p>
             </div>
 
@@ -86,10 +83,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Faire Preiseg</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Faire Preise</h3>
               <p className="text-gray-600 leading-relaxed">
-                Transparente Preise ohne versteckte Gebühren. Premium‑Qualität zu wettbewerbsfähigen Konditionen,
-                ab nur 4,99 €.
+                Transparente Preisgestaltung ohne versteckte Gebühren. Premium-Qualität zu
+                wettbewerbsfähigen Preisen, ab nur €4,99.
               </p>
             </div>
           </div>
@@ -100,10 +97,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              How It Works
+              So Funktioniert Es
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Getting started is simple. Three easy steps to access premium wellness products.
+              Der Einstieg ist einfach. Drei einfache Schritte zum Zugang zu Premium-Wellness-Produkten.
             </p>
           </div>
 
@@ -114,10 +111,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 1
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Choose Your Products</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Wählen Sie Ihre Produkte</h3>
               <p className="text-gray-600 leading-relaxed">
-                Browse our selection and select the products that fit your needs.
-                Detailed descriptions and clear information help you make the right choice.
+                Durchsuchen Sie unsere Auswahl und wählen Sie die Produkte, die Ihren Bedürfnissen entsprechen.
+                Detaillierte Beschreibungen und klare Informationen helfen Ihnen, die richtige Wahl zu treffen.
               </p>
             </div>
 
@@ -125,10 +122,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 2
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Quick Verification</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Schnelle Verifizierung</h3>
               <p className="text-gray-600 leading-relaxed">
-                Complete a simple online process to verify your eligibility.
-                Fast, secure, and straightforward — usually completed in minutes.
+                Schließen Sie einen einfachen Online-Prozess ab, um Ihre Berechtigung zu verifizieren.
+                Schnell, sicher und unkompliziert — normalerweise in wenigen Minuten abgeschlossen.
               </p>
             </div>
 
@@ -136,10 +133,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 3
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Receive at Home</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Empfang zu Hause</h3>
               <p className="text-gray-600 leading-relaxed">
-                Discreet packaging delivered directly to your door. Track your shipment
-                in real-time and enjoy secure, reliable delivery.
+                Diskrete Verpackung direkt zu Ihrer Haustür geliefert. Verfolgen Sie Ihre Sendung
+                in Echtzeit und genießen Sie sichere, zuverlässige Lieferung.
               </p>
             </div>
           </div>
@@ -150,7 +147,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              What Our Customers Say
+              Was Unsere Kunden Sagen
             </h2>
             <div className="flex items-center justify-center gap-8 mt-8">
               <div className="flex items-center gap-2">
@@ -164,7 +161,7 @@ export default function Home() {
                 <span className="font-bold text-gray-900 text-xl">4.9/5</span>
               </div>
               <div className="text-gray-600">
-                <span className="font-semibold text-gray-900">5,200+</span> verified reviews
+                <span className="font-semibold text-gray-900">5.200+</span> verifizierte Bewertungen
               </div>
             </div>
           </div>
@@ -179,11 +176,11 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;The entire process was incredibly smooth. Ordered on Monday, received by Wednesday.
-                The quality exceeded my expectations and customer service was fantastic.&quot;
+                &quot;Der gesamte Prozess verlief unglaublich reibungslos. Am Montag bestellt, am Mittwoch erhalten.
+                Die Qualität übertraf meine Erwartungen und der Kundenservice war fantastisch.&quot;
               </p>
               <p className="font-semibold text-gray-900">Sarah M.</p>
-              <p className="text-sm text-gray-500">Verified Customer</p>
+              <p className="text-sm text-gray-500">Verifizierter Kunde</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-shadow">
@@ -195,11 +192,11 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;Finally, a service that makes everything simple and transparent. Fair prices,
-                fast delivery, and excellent product quality. Highly recommended!&quot;
+                &quot;Endlich ein Service, der alles einfach und transparent macht. Faire Preise,
+                schnelle Lieferung und ausgezeichnete Produktqualität. Sehr empfehlenswert!&quot;
               </p>
               <p className="font-semibold text-gray-900">Michael K.</p>
-              <p className="text-sm text-gray-500">Verified Customer</p>
+              <p className="text-sm text-gray-500">Verifizierter Kunde</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-shadow">
@@ -211,11 +208,11 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;Professional service from start to finish. Discreet packaging, timely delivery,
-                and the platform is so easy to use. Will definitely order again.&quot;
+                &quot;Professioneller Service von Anfang bis Ende. Diskrete Verpackung, pünktliche Lieferung,
+                und die Plattform ist so einfach zu bedienen. Werde definitiv wieder bestellen.&quot;
               </p>
               <p className="font-semibold text-gray-900">Emma L.</p>
-              <p className="text-sm text-gray-500">Verified Customer</p>
+              <p className="text-sm text-gray-500">Verifizierter Kunde</p>
             </div>
           </div>
         </div>
@@ -224,14 +221,14 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-emerald-500 to-teal-600 px-6 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to Get Started?
+            Bereit Loszulegen?
           </h2>
           <p className="text-xl text-emerald-50 mb-10 leading-relaxed">
-            Join thousands of satisfied customers who trust Bubatz Center for their wellness needs.
-            Simple, fast, and reliable — experience the difference today.
+            Schließen Sie sich Tausenden zufriedener Kunden an, die dem Bubatz Center für ihre Wellness-Bedürfnisse vertrauen.
+            Einfach, schnell und zuverlässig — erleben Sie den Unterschied heute.
           </p>
           <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-white text-emerald-600 hover:bg-gray-50 px-10 py-4 rounded-lg font-bold text-lg transition-colors shadow-xl hover:shadow-2xl inline-block">
-            Start Your Journey Now
+            Starten Sie Jetzt Ihre Reise
           </a>
         </div>
       </section>
@@ -247,41 +244,41 @@ export default function Home() {
                 <span className="text-xl font-bold text-white">Bubatz Center</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Modern digital wellness platform delivering quality and convenience.
+                Moderne digitale Wellness-Plattform für Qualität und Komfort.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Products</h4>
+              <h4 className="text-white font-semibold mb-4">Produkte</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Browse Catalog</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Premium Selection</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">New Arrivals</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Katalog durchsuchen</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Premium-Auswahl</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Neuankömmlinge</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Contact Us</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Shipping Info</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Hilfezentrum</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Kontakt</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Versandinfo</a></li>
                 <li><a href="#" className="hover:text-emerald-400 transition-colors">FAQs</a></li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Company</h4>
+              <h4 className="text-white font-semibold mb-4">Unternehmen</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Über Uns</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Datenschutz</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Nutzungsbedingungen</a></li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Bubatz Center. All rights reserved.</p>
+            <p>&copy; 2024 Bubatz Center. Alle Rechte vorbehalten.</p>
           </div>
         </div>
       </footer>
