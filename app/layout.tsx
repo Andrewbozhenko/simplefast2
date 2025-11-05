@@ -6,8 +6,8 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Bubatz Center - Modern Digital Wellness Platform',
-  description: 'Simple, fast, and accessible wellness solutions delivered to your door. Experience a new standard in digital health.',
+  title: 'Bubatz Center – Moderne digitale Wellness‑Plattform',
+  description: 'Einfache, schnelle und zugängliche Wellness‑Lösungen direkt zu Ihnen nach Hause. Erleben Sie einen neuen Standard in digitaler Gesundheit.',
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <head>
         {/* Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">
