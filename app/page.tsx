@@ -12,7 +12,7 @@ export default function Home() {
             <span className="text-2xl font-bold text-gray-900">Bubatz Center</span>
           </div>
           <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
-            Get Started
+            Loslegen
           </a>
         </div>
       </nav>
@@ -21,34 +21,34 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Simple, Fast & Accessible
+              Einfach, Schnell & Zugänglich
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Experience a new standard in digital wellness. Quality products, expert guidance,
-              and seamless delivery — all in one modern platform designed for your convenience.
+              Erleben Sie einen neuen Standard für digitale Wellness. Qualitätsprodukte, fachkundige Beratung
+              und nahtlose Lieferung — alles auf einer modernen Plattform für 
             </p>
             <div className="flex flex-wrap gap-4 justify-center mb-10">
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Premium Quality</span>
+                <span className="font-medium">Premium‑Qualität</span>
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Fast Delivery</span>
+                <span className="font-medium">Schnelle Lieferung</span>
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Secure & Discreet</span>
+                <span className="font-medium">Sicher & Diskret</span>
               </div>
             </div>
             <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl inline-block">
-              Start Your Journey
+              Jetzt starten
             </a>
           </div>
 
@@ -59,10 +59,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Easy Selection</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Einfache Auswahl</h3>
               <p className="text-gray-600 leading-relaxed">
-                Browse our curated selection of premium products. Simple interface,
-                clear information, and straightforward ordering.
+                Stöbern Sie in unserer kuratierten Auswahl an Premium‑Produkten. Einfache Oberfläche,
+                klare Informationen und unkomplizierte Bestellvorgänge.
               </p>
             </div>
 
@@ -72,10 +72,11 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Quick Processing</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Schnelle Bearbeitung</h3>
               <p className="text-gray-600 leading-relaxed">
-                Orders processed within 2 business days. No hassle, no waiting.
-                Track your order from start to finish.
+                Bestellungen werden innerhalb von 2 Werktagen bearbeitet. Kein Aufwand, keine Wartezeit.
+                Verfolgen Sie Ihre Bestellung von Anfang bis Ende.
+              </p>
               </p>
             </div>
 
@@ -85,10 +86,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Fair Pricing</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Faire Preiseg</h3>
               <p className="text-gray-600 leading-relaxed">
-                Transparent pricing with no hidden fees. Premium quality at
-                competitive rates, starting from just €4.99.
+                Transparente Preise ohne versteckte Gebühren. Premium‑Qualität zu wettbewerbsfähigen Konditionen,
+                ab nur 4,99 €.
               </p>
             </div>
           </div>
