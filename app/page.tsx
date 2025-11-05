@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -10,7 +12,7 @@ export default function Home() {
             <span className="text-2xl font-bold text-gray-900">Bubatz Center</span>
           </div>
           <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
-            Loslegen
+            Get Started
           </a>
         </div>
       </nav>
@@ -19,34 +21,34 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Einfach, Schnell & Zugänglich
+              Simple, Fast & Accessible
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Erleben Sie einen neuen Standard für digitale Wellness. Qualitätsprodukte, fachkundige Beratung
-              und nahtlose Lieferung — alles auf einer modernen Plattform für Ihre Bequemlichkeit.
+              Experience a new standard in digital wellness. Quality products, expert guidance,
+              and seamless delivery — all in one modern platform designed for your convenience.
             </p>
             <div className="flex flex-wrap gap-4 justify-center mb-10">
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/[...]
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Premium‑Qualität</span>
+                <span className="font-medium">Premium Quality</span>
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/[...]
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Schnelle Lieferung</span>
+                <span className="font-medium">Fast Delivery</span>
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <svg className="w-6 h-6 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/[...]
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
                 </svg>
-                <span className="font-medium">Sicher & Diskret</span>
+                <span className="font-medium">Secure & Discreet</span>
               </div>
             </div>
-            <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-[...]
-              Jetzt starten
+            <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl inline-block">
+              Start Your Journey
             </a>
           </div>
 
@@ -57,10 +59,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Einfache Auswahl</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Easy Selection</h3>
               <p className="text-gray-600 leading-relaxed">
-                Stöbern Sie in unserer kuratierten Auswahl an Premium‑Produkten. Einfache Oberfläche,
-                klare Informationen und unkomplizierte Bestellvorgänge.
+                Browse our curated selection of premium products. Simple interface,
+                clear information, and straightforward ordering.
               </p>
             </div>
 
@@ -70,23 +72,23 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Schnelle Bearbeitung</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Quick Processing</h3>
               <p className="text-gray-600 leading-relaxed">
-                Bestellungen werden innerhalb von 2 Werktagen bearbeitet. Kein Aufwand, keine Wartezeit.
-                Verfolgen Sie Ihre Bestellung von Anfang bis Ende.
+                Orders processed within 2 business days. No hassle, no waiting.
+                Track your order from start to finish.
               </p>
             </div>
 
             <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
               <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c[...]
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Faire Preise</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Fair Pricing</h3>
               <p className="text-gray-600 leading-relaxed">
-                Transparente Preise ohne versteckte Gebühren. Premium‑Qualität zu wettbewerbsfähigen Konditionen,
-                ab nur 4,99 €.
+                Transparent pricing with no hidden fees. Premium quality at
+                competitive rates, starting from just €4.99.
               </p>
             </div>
           </div>
@@ -97,10 +99,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              So funktioniert es
+              How It Works
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Der Einstieg ist einfach. Drei einfache Schritte, um Zugang zu Premium‑Wellness‑Produkten zu erhalten.
+              Getting started is simple. Three easy steps to access premium wellness products.
             </p>
           </div>
 
@@ -111,10 +113,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 1
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Wählen Sie Ihre Produkte</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Choose Your Products</h3>
               <p className="text-gray-600 leading-relaxed">
-                Stöbern Sie in unserer Auswahl und wählen Sie die Produkte, die zu Ihren Bedürfnissen passen.
-                Detaillierte Beschreibungen und klare Informationen helfen Ihnen bei der richtigen Entscheidung.
+                Browse our selection and select the products that fit your needs.
+                Detailed descriptions and clear information help you make the right choice.
               </p>
             </div>
 
@@ -122,10 +124,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 2
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Schnelle Verifizierung</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Quick Verification</h3>
               <p className="text-gray-600 leading-relaxed">
-                Schließen Sie einen einfachen Online‑Prozess ab, um Ihre Berechtigung zu überprüfen.
-                Schnell, sicher und unkompliziert — in der Regel in wenigen Minuten abgeschlossen.
+                Complete a simple online process to verify your eligibility.
+                Fast, secure, and straightforward — usually completed in minutes.
               </p>
             </div>
 
@@ -133,10 +135,10 @@ export default function Home() {
               <div className="w-20 h-20 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 shadow-lg relative z-10">
                 3
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Zustellung nach Hause</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Receive at Home</h3>
               <p className="text-gray-600 leading-relaxed">
-                Diskrete Verpackung, direkt an Ihre Tür geliefert. Verfolgen Sie Ihre Sendung in Echtzeit und genießen
-                sichere, zuverlässige Lieferung.
+                Discreet packaging delivered directly to your door. Track your shipment
+                in real-time and enjoy secure, reliable delivery.
               </p>
             </div>
           </div>
@@ -147,21 +149,21 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Was unsere Kunden sagen
+              What Our Customers Say
             </h2>
             <div className="flex items-center justify-center gap-8 mt-8">
               <div className="flex items-center gap-2">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118[...]
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
-                <span className="font-bold text-gray-900 text-xl">4,9/5</span>
+                <span className="font-bold text-gray-900 text-xl">4.9/5</span>
               </div>
               <div className="text-gray-600">
-                <span className="font-semibold text-gray-900">5.200+</span> verifizierte Bewertungen
+                <span className="font-semibold text-gray-900">5,200+</span> verified reviews
               </div>
             </div>
           </div>
@@ -171,48 +173,48 @@ export default function Home() {
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-[...]
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;Der gesamte Ablauf war unglaublich reibungslos. Am Montag bestellt, am Mittwoch erhalten.
-                Die Qualität übertraf meine Erwartungen und der Kundenservice war fantastisch.&quot;
+                &quot;The entire process was incredibly smooth. Ordered on Monday, received by Wednesday.
+                The quality exceeded my expectations and customer service was fantastic.&quot;
               </p>
               <p className="font-semibold text-gray-900">Sarah M.</p>
-              <p className="text-sm text-gray-500">Verifizierte Kundin</p>
+              <p className="text-sm text-gray-500">Verified Customer</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-shadow">
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-[...]
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;Endlich ein Service, der alles einfach und transparent macht. Faire Preise,
-                schnelle Lieferung und ausgezeichnete Produktqualität. Sehr zu empfehlen!&quot;
+                &quot;Finally, a service that makes everything simple and transparent. Fair prices,
+                fast delivery, and excellent product quality. Highly recommended!&quot;
               </p>
               <p className="font-semibold text-gray-900">Michael K.</p>
-              <p className="text-sm text-gray-500">Verifizierter Kunde</p>
+              <p className="text-sm text-gray-500">Verified Customer</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl transition-shadow">
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-[...]
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                &quot;Professioneller Service von Anfang bis Ende. Diskrete Verpackung, pünktliche Lieferung,
-                und die Plattform ist so einfach zu bedienen. Werde definitiv wieder bestellen.&quot;
+                &quot;Professional service from start to finish. Discreet packaging, timely delivery,
+                and the platform is so easy to use. Will definitely order again.&quot;
               </p>
               <p className="font-semibold text-gray-900">Emma L.</p>
-              <p className="text-sm text-gray-500">Verifizierte Kundin</p>
+              <p className="text-sm text-gray-500">Verified Customer</p>
             </div>
           </div>
         </div>
@@ -221,14 +223,14 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-emerald-500 to-teal-600 px-6 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Bereit loszulegen?
+            Ready to Get Started?
           </h2>
           <p className="text-xl text-emerald-50 mb-10 leading-relaxed">
-            Schließen Sie sich tausenden zufriedenen Kundinnen und Kunden an, die Bubatz Center für ihre Wellness‑Bedürfnisse vertrauen.
-            Einfach, schnell und zuverlässig — erleben Sie noch heute den Unterschied.
+            Join thousands of satisfied customers who trust Bubatz Center for their wellness needs.
+            Simple, fast, and reliable — experience the difference today.
           </p>
-          <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-white text-emerald-600 hover:bg-gray-50 px-10 py-4 rounded-lg font-bold text-lg transition-colors sh[...]
-            Jetzt starten
+          <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-white text-emerald-600 hover:bg-gray-50 px-10 py-4 rounded-lg font-bold text-lg transition-colors shadow-xl hover:shadow-2xl inline-block">
+            Start Your Journey Now
           </a>
         </div>
       </section>
@@ -244,41 +246,41 @@ export default function Home() {
                 <span className="text-xl font-bold text-white">Bubatz Center</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Moderne digitale Wellness‑Plattform, die Qualität und Komfort bietet.
+                Modern digital wellness platform delivering quality and convenience.
               </p>
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Produkte</h4>
+              <h4 className="text-white font-semibold mb-4">Products</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Katalog durchsuchen</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Premium‑Auswahl</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Neuheiten</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Browse Catalog</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Premium Selection</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">New Arrivals</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Hilfe</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Kontakt</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Versandinformationen</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">FAQ</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Help Center</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Contact Us</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Shipping Info</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">FAQs</a></li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Unternehmen</h4>
+              <h4 className="text-white font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Über uns</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Datenschutz</a></li>
-                <li><a href="#" className="hover:text-emerald-400 transition-colors">Nutzungsbedingungen</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-emerald-400 transition-colors">Terms of Service</a></li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Bubatz Center. Alle Rechte vorbehalten.</p>
+            <p>&copy; 2024 Bubatz Center. All rights reserved.</p>
           </div>
         </div>
       </footer>
