@@ -9,7 +9,7 @@ export default function Home() {
             </div>
             <span className="text-2xl font-bold text-gray-900">Bubatz Center</span>
           </div>
-          <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
+          <a href="https://canngo.express/?utm_source=google&utm_medium=cpc&utm_campaign=bubatz" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
             Jetzt Starten
           </a>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
                 <span className="font-medium">Sicher & Diskret</span>
               </div>
             </div>
-            <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl inline-block">
+            <a href="https://canngo.express/?utm_source=google&utm_medium=cpc&utm_campaign=bubatz" target="_blank" rel="noopener noreferrer" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl inline-block">
               Starten Sie Ihre Reise
             </a>
           </div>
@@ -227,7 +227,7 @@ export default function Home() {
             Schließen Sie sich Tausenden zufriedener Kunden an, die dem Bubatz Center für ihre Wellness-Bedürfnisse vertrauen.
             Einfach, schnell und zuverlässig — erleben Sie den Unterschied heute.
           </p>
-          <a href="https://canngo.express/" target="_blank" rel="noopener noreferrer" className="bg-white text-emerald-600 hover:bg-gray-50 px-10 py-4 rounded-lg font-bold text-lg transition-colors shadow-xl hover:shadow-2xl inline-block">
+          <a href="https://canngo.express/?utm_source=google&utm_medium=cpc&utm_campaign=bubatz" target="_blank" rel="noopener noreferrer" className="bg-white text-emerald-600 hover:bg-gray-50 px-10 py-4 rounded-lg font-bold text-lg transition-colors shadow-xl hover:shadow-2xl inline-block">
             Starten Sie Jetzt Ihre Reise
           </a>
         </div>
